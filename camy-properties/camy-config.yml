@@ -1,0 +1,24 @@
+spring:
+  profiles: dev
+url:
+  camyerrorurl: https://www-test.camy.oita.com/schedule/error
+  camycancelurl: https://www-test.camy.oita.com/schedule/cancel
+  camycompleteurl: http://localhost/complete/
+mail:
+  subject: Notice of Payment Error(dev)
+  from-email: bill_down@test.com
+  errormailaddress: dl_billing_dev@test.com
+  
+
+---
+
+spring:
+  profiles: real
+url:
+  camyerrorurl: https://real.camy.oita.com/schedule/error2
+  camycancelurl: https://real.camy.oita.com/schedule/cancel2
+  camycompleteurl: http://real-payment.camy.oita.com/complete2
+mail:
+  subject: Notice of Payment Error(real)
+  from-email: bill_down_real@test.com
+  errormailaddress: dl_billing_real@test.com  
