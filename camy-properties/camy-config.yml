@@ -6,8 +6,8 @@ url:
   camycompleteurl: http://localhost/complete/
 mail:
   subject: Notice of Payment Error(dev)
-  from-email: bill_down@test.com
-  errormailaddress: dl_billing_dev@test.com
+  from-email: dev@test.com
+  errormailaddress: dev@test.com
   
 
 ---
@@ -20,5 +20,5 @@ url:
   camycompleteurl: http://real-payment.camy.oita.com/complete2
 mail:
   subject: Notice of Payment Error(real)
-  from-email: bill_down_real@test.com
-  errormailaddress: dl_billing_real@test.com  
+  from-email: real@test.com
+  errormailaddress: real@test.com  
